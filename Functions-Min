@@ -1,0 +1,9 @@
+func min (_ a: Int, _ b: Int) -> Int {
+	if a <= b {
+		return a
+	}
+	else {
+		return b
+	}
+}
+print (min (1,12))
