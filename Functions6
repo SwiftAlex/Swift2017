@@ -5,5 +5,3 @@ func printFirstPrimes (_ count: Int) {
 		}
 	}
 }
-
-printFirstPrimes(3)
