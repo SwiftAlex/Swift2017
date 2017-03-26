@@ -1,0 +1,10 @@
+
+func first(_ N: Int) -> [Int] {
+	var out = [Int] ()
+	for i in 1...N{
+		out.append(i)
+	}
+	return out
+}
+
+print (first (3))
