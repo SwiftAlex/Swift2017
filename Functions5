@@ -1,0 +1,31 @@
+func divides(_ a: Int, _ b: Int) -> Bool {
+	if a%b == 0 {
+		return true
+	}
+	else {
+		return false
+	}
+}
+
+func countDivisors(_ number: Int) -> Int {
+	var divisors = 0
+	for i in 1...number {
+		if divides(number,i) {
+		divisors+=1
+		}
+	}
+	return divisors
+}
+
+func isPrime(_ number: Int) -> Bool {
+	if countDivisors(number) == 2 {
+		return true
+	}
+	else {
+		return false
+	}
+}
+
+print (divides(2,3))
+print (countDivisors(90))
+print (isPrime(97))
