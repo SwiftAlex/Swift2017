@@ -5,5 +5,3 @@ func first(_ N: Int) -> [Int] {
 	}
 	return out
 }
-
-print (first (3))
