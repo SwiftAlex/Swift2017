@@ -6,4 +6,3 @@ func min (_ a: Int, _ b: Int) -> Int {
 		return b
 	}
 }
-print (min (1,12))
