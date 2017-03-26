@@ -25,7 +25,3 @@ func isPrime(_ number: Int) -> Bool {
 		return false
 	}
 }
-
-print (divides(2,3))
-print (countDivisors(90))
-print (isPrime(97))
