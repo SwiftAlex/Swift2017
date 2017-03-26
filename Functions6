@@ -1,0 +1,9 @@
+func printFirstPrimes (_ count: Int) {
+	for i in 1...count {
+		if isPrime(i) == true {
+			print (i)
+		}
+	}
+}
+
+printFirstPrimes(3)
