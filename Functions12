@@ -1,0 +1,20 @@
+func verify(_ expression: String) -> Bool {
+    var arr = Array(expression.characters)
+    if arr[0] == ")" || arr[arr.count-1] == "("{
+        return false
+    }
+    var opencount = 0
+    var closcount = 0
+    for i in 0...arr.count - 1 {
+        if arr[i] == "(" {
+        opencount += 1
+        }
+        else {
+            closcount += 1
+        }
+    }
+    if opencount == closcount {
+        return true
+    }
+    return true
+}
