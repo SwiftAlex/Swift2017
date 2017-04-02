@@ -1,0 +1,10 @@
+func levelCost(heights: [Int], maxJump: Int) -> Int {
+	var h1 = 0
+	var h2 = 0
+	var h3 = 3
+	
+	for i in heights {
+		
+	}
+}
+ this is weird...
