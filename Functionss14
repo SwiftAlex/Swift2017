@@ -1,0 +1,17 @@
+var queue: [Int] = [1,2,3]
+func push (_ number: Int, _ queue: inout [Int]) {
+	queue.append(number)
+}
+
+func pop (_ queue: inout [Int]) -> Int? {
+	let popper = queue.first
+	if queue.count == 0 {
+		return nil
+	}
+	if queue.count > 0 {
+		queue.remove(at: 0)
+	}
+	return popper
+}
+print (pop(&queue))
+print (queue)
